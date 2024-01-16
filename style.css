@@ -1,0 +1,207 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 120px;
+}
+
+
+/* Navbar Start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.nav-logo {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav a:hover {
+    background-color: #015b67;
+}
+
+.nav-part a{
+    color: #000000; /* Set the color for navigation links */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-part a,i{
+    margin: 0 15px;
+}
+
+/* Navbar End */
+/* --------------------------------- */
+
+/* Banner Section Start */
+
+/* Banner Section End */
+
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 100px 50px ;
+}
+.banner-title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-button{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    margin-top: 10px;  
+}
+.banner-img{
+    
+     background-image: url("//images/Circle/design.svg");
+     /* padding: 30px 0 2px 0; */
+    
+}
+
+.partner-companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    color: #C0CCDA1A, #C0CCDA99, #C0CCDA1A;
+    margin: 20px 20px;
+    
+}
+
+/* Main Section Start */
+
+/* Popular Collection Section */
+.popular-collection-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.popular-collection-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 60px;
+    margin-left: 120px;
+}
+.popular-collection{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+}
+.collection-img{
+    margin: 15px;
+}
+.collection-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+.collection-doller{
+    font-size: 20px;
+    font-weight: 200;
+    margin: 5px 15px;
+}
+.collection-review{
+    display: flex;
+    align-items: center;
+}
+.fa-star {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 0px;
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #ffc014;
+}
+
+.fa-star.empty {
+    color: #aeaeae;
+}
+.review{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: Gray · 80%;
+}
+.collection-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: Gray · 80%;
+    margin:  10px 15px;
+}
+.see-more{
+   color: #E02C6D; 
+   font-size: 16px;
+   font-weight: 700;
+   text-align: right;
+   margin-right: 40px;
+}
+
+/* Popular Collection Section */
+
+
+/* Featured Products  */
+
+.featured-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 50px 100px 120px ;
+}
+.featured-info{
+    margin-left: 90px;
+}
+.featured-title{
+    font-size: 28px;
+    font-weight: 700;
+}
+.featured-description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6C6C6C;
+}
+.featured-button{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    margin-top: 10px;  
+}
+
+/* Featured Products  */
+
+/* Main Section End */
+
+/* Footer start */
+
+
+.footer-container{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Footer End */
+
